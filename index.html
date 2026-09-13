@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bếp của bạn</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --primary: #ea580c;
+        --bg: #fff7ed;
+        --text: #27272a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+      }
+
+      header {
+        background: var(--primary);
+        color: #ffffff;
+        text-align: center;
+        padding: 40px 16px;
+      }
+
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px 16px 40px;
+      }
+
+      h1,
+      h2 {
+        margin-top: 0;
+      }
+
+      .recipes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+
+      .card {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px 16px;
+        background: #fed7aa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bếp của bạn</h1>
+      <p>Nơi chia sẻ món ăn ngon mỗi ngày</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Về chúng tôi</h2>
+        <p>
+          Bếp của bạn mang đến những công thức đơn giản, dễ làm và phù hợp cho
+          mọi gia đình Việt.
+        </p>
+      </section>
+
+      <section>
+        <h2>Món ăn nổi bật</h2>
+        <div class="recipes">
+          <article class="card">
+            <h3>Canh chua cá</h3>
+            <p>Chua thanh, ngọt dịu với rau tươi và cá mềm ngon.</p>
+          </article>
+          <article class="card">
+            <h3>Thịt kho trứng</h3>
+            <p>Món ăn truyền thống đậm đà, thích hợp cho bữa cơm gia đình.</p>
+          </article>
+          <article class="card">
+            <h3>Gỏi cuốn tôm thịt</h3>
+            <p>Tươi mát, ít dầu mỡ, chấm cùng nước mắm chua ngọt.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Bếp của bạn</p>
+    </footer>
+  </body>
+</html>
