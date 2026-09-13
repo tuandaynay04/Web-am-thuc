@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# NestJS
+dist/
+coverage/
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+# Local environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build outputs
+**/dist/
+**/.next/
+**/coverage/
+
+# AI / editor tooling
+**/.windsurf/
+**/.claude/
+**/.agents/
