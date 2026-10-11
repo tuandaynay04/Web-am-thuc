@@ -41,3 +41,10 @@ __pycache__/
 **/.windsurf/
 **/.claude/
 **/.agents/
+
+# Recipe datasets - keep local until licensing is verified
+/data/raw/
+/data/processed/
+
+# Local Python test backups
+*.py.bak
